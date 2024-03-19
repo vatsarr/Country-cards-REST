@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: #2c3639;
+    --color: #dcd7c9;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--color);
+    font-family: "Roboto Flex", sans-serif;
+}
+
+.main-container {
+    width: 80%;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.title-container {
+    padding: 1rem;
+    text-align: center;
+}
+
+.filter-container {
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.filter-list {
+    list-style: none;
+    text-align: center;
+}
+
+.filter-item {
+    display: inline;
+    margin: 0 1rem;
+}
+
+.cards-container {
+    padding: 1rem;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-content: space-evenly;
+}
+
+.card {
+    padding: 1rem;
+    border: solid 1px var(--color);
+    border-radius: 12px;
+    width: 350px;
+    text-align: center;
+}
